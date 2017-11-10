@@ -1,7 +1,9 @@
-# Vector
+# Vector analysis
 
 ## Why should there be vector?
-When we code to solve problem, we alway use array to store and deal with data. But we alway don't know how big the array should be. If it is too small, the program don't work, well, if it is too large, it should waste a lot of memory. In order to fix the problem, vector appear.
+When we code to solve problem, we alway use array to store and deal with data. But we alway don't know how big the array should be. If it is too small, the program don't work, well, if it is too large, it should waste a lot of memory. In order to fix the problem, vector appear. 
+
+Vector is sequence container representing array that can change in size. User do not need to consider the size of Array.
 
 ## How vector work?
 The basic idea of vector is that when we use out of space, we alloc a new big space and remove datas to new space, then free the old space. 
