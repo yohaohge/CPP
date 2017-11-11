@@ -11,4 +11,4 @@ The basic idea of vector is that when we use out of space, we alloc a new big sp
 We suppose the size of old space is n, and how much should the size of new space be? Obviously n+1 is not a good idea because if we add one more element to the vector, it should alloc new space and remove data again. how about n+2,n+3...? A clever strategy is 2*n which is used be by many implemnets of STL.
 
 
-## What can we learn from the complement of vector?
+## What can we learn from the implements of vector?
